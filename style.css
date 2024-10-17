@@ -1,6 +1,6 @@
 
 body{
-   background-color: rgb(30,30,30);
+   background-color: rgb(0,0,0);
 }
 
 .descript p{
@@ -106,7 +106,7 @@ body{
    position: relative;
    left:200px;
    width: 1200px;
-   background-color: rgb(50,50,50);
+   background-color: rgb(0,0,0);
 }
 
 .scroll_proof {
