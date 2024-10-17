@@ -1,0 +1,131 @@
+
+body{
+   background-color: rgb(30,30,30);
+}
+
+.descript p{
+   position: relative;
+   top: 10px;
+   left: 60px;
+   color:white;
+   font-family: lucida console, monospace;
+   font-size:18px;
+}
+
+.header{
+  height: 124px;
+  position: relative;
+  top: -20px;
+}
+
+.header img {
+  float: left;
+  max-width: 10%;
+  height: auto;
+  background: #555;
+}
+
+.header h1 {
+  font-size:36px;
+  position: relative;
+  top: 40px;
+  left: 10px;
+  color:black;
+  font-family: lucida console, monospace;
+  position: relative;
+}
+
+.question_body {
+  left:100px;
+  background-color: rgb(80,80,80);
+  height: 200px;
+  width: 1000px;
+  position: relative;
+  top: -20px;
+}
+
+.question_body_2 {
+  left:100px;
+  background-color: rgb(80,80,80);
+  height: 120px;
+  width: 1000px;
+  position: relative;
+  top: -20px;
+}
+
+.question_body p {
+   position: relative;
+   top: 10px;
+   left: 20px;
+   color:white;
+   font-family: lucida console, monospace;
+}
+
+.question_body_2 p {
+   position: relative;
+   top: 10px;
+   left: 20px;
+   color:white;
+   font-family: lucida console, monospace;
+}
+
+.form label {
+   position: relative;
+   left:20px;
+   color:white;
+   font-family: lucida console, monospace;
+}
+
+.form input {
+   position: relative;
+   left:20px;
+   background-color: rgb(50,50,50);
+   color:white;
+   font-family: lucida console, monospace;
+}
+
+.form select {
+   position: relative;
+   left:20px;
+   color:white;
+   font-family: lucida console, monospace;
+   background-color: rgb(50,50,50);
+}
+
+
+.form h1 {
+  top: 10px;
+  left: 10px;
+  font-size:24px;
+  color:white;
+  font-family: lucida console, monospace;
+  position: relative;
+}
+
+.form {
+   position: relative;
+   left:200px;
+   width: 1200px;
+   background-color: rgb(50,50,50);
+}
+
+.scroll_proof {
+   position: relative;
+   background-color: rgb(0,0,0);
+   height: 1900px;
+   width:  1700px;
+}
+
+input[type=text]:focus {
+  background-color: black;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  position: relative; 
+  background-color: rgb(160,80,80);
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
